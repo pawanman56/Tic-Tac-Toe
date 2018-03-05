@@ -5,14 +5,28 @@ body {
 }
 
 .game-board {
-  width: 50%;
+  width: 70%;
   float: left;
   text-align: center;
 }
 
+@media screen and (max-width: 550px) {
+  .game-board {
+    width: 100%;
+  }
+}
+
 .game-info {
-  width: 50%;
+  width: 30%;
   float: left;
+}
+
+@media screen and (max-width: 550px) {
+  .game-info {
+    width: 100%;
+    margin-top: 25px;
+    text-align: center;
+  }
 }
 
 .board-row {
@@ -20,17 +34,26 @@ body {
 }
 
 .square {
-  width: 30px;
-  height: 30px;
-  margin: 0 !important;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
   background-color: #eaeaea;
   border: 0;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.game-info ul {
+  padding: 0;
+  list-style: none;
 }
 
 .game-info li button {
   width: 150px;
-  height: 25px;
+  height: 35px;
   border: 0;
   background: #8bc34a;
   color: #ffffff;
+  margin-bottom: 10px;
+  font-weight: 600;
 }
