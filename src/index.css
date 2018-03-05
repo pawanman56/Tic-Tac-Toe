@@ -1,0 +1,36 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  background-color: #fafafa;
+}
+
+.game-board {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+.game-info {
+  width: 50%;
+  float: left;
+}
+
+.board-row {
+  margin: 0;
+}
+
+.square {
+  width: 30px;
+  height: 30px;
+  margin: 0 !important;
+  background-color: #eaeaea;
+  border: 0;
+}
+
+.game-info li button {
+  width: 150px;
+  height: 25px;
+  border: 0;
+  background: #8bc34a;
+  color: #ffffff;
+}
